@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: realtime-chat-app
+    env: node
+    repo: https://github.com/charuka97/Realtime-Chat-Application
+    branch: master
+    buildCommand: npm run build
+    startCommand: npm run start
+    rootDir: .
